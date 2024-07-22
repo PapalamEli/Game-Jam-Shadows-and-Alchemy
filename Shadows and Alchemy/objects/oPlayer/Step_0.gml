@@ -7,8 +7,9 @@ var _keyLeft = keyboard_check(vk_left);
 var _keyJump = keyboard_check_pressed(vk_space);
 
 //Works out where the player will move horizontally
+if(canJump-- > 0){
 hsp = (_keyRight - _keyLeft) * hWalk;
-
+}
 //Works out where the player will move vertically
 vsp = vsp + grv;
 
