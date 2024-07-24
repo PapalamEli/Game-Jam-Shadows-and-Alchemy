@@ -30,13 +30,22 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.0.157",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Shadows and Alchemy",
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
+    {"id":{"name":"Backdrop","path":"sprites/Backdrop/Backdrop.yy",},},
+    {"id":{"name":"door","path":"sprites/door/door.yy",},},
+    {"id":{"name":"exit_button","path":"sprites/exit_button/exit_button.yy",},},
+    {"id":{"name":"House","path":"sprites/House/House.yy",},},
+    {"id":{"name":"knight","path":"sprites/knight/knight.yy",},},
+    {"id":{"name":"main_caracter","path":"sprites/main_caracter/main_caracter.yy",},},
+    {"id":{"name":"menu_button","path":"sprites/menu_button/menu_button.yy",},},
+    {"id":{"name":"options_button","path":"sprites/options_button/options_button.yy",},},
+    {"id":{"name":"play_button","path":"sprites/play_button/play_button.yy",},},
     {"id":{"name":"sGrassFloor","path":"sprites/sGrassFloor/sGrassFloor.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
@@ -44,7 +53,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
