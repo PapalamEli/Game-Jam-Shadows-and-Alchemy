@@ -22,25 +22,53 @@ if(canJump-- > 0) && (_keyJump)
 
 //Collision and movement
 
-if(place_meeting(x + hsp, y, oWall))
+// we will want to move away from instances and go on to tilemaps, once ready, remove this piece of code
+if(place_meeting(x + hsp, y, oBaseCollision))
 {
 	while(abs(hsp) > 0.1)
 	{
 		hsp *= 0.5;
-		if (!place_meeting(x + hsp, y, oWall)) x += hsp;
+		if (!place_meeting(x + hsp, y, oBaseCollision)) x += hsp;
 	}
 	hsp = 0;
 }
-x += hsp;
 
-if(place_meeting(x, y + vsp, oWall))
+if(place_meeting(x, y + vsp, oBaseCollision))
 {
 	if(vsp > 0) canJump = 10;
 	while (abs(vsp) > 0.1)
 	{
 		vsp *= 0.5;
-		if(!place_meeting(x, y + vsp, oWall)) y += vsp;
+		if(!place_meeting(x, y + vsp, oBaseCollision)) y += vsp;
 	}
 	vsp = 0;
 }
+
+
+// mostly same code as above, except its for the tilemap
+if(place_meeting(x + hsp, y, forest_tilemap))
+{
+	while(abs(hsp) > 0.1)
+	{
+		hsp *= 0.5;
+		if (!place_meeting(x + hsp, y, forest_tilemap)) x += hsp;
+	}
+	hsp = 0;
+}
+x += hsp;
+
+
+if(place_meeting(x, y + vsp, forest_tilemap))
+{
+	if(vsp > 0) canJump = 10;
+	while (abs(vsp) > 0.1)
+	{
+		vsp *= 0.5;
+		if(!place_meeting(x, y + vsp, forest_tilemap)) y += vsp;
+	}
+	vsp = 0;
+}
+
+// keep this block after any collision checks, to ensure the player does not clip
+x += hsp;
 y += vsp;

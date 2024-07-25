@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oWallGrass",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayer",
+  "name":"oWallGrass",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oBaseCollision",
+    "path":"objects/oBaseCollision/oBaseCollision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMainCharacter",
-    "path":"sprites/sMainCharacter/sMainCharacter.yy",
+    "name":"sGrassFloor_outdated",
+    "path":"sprites/sGrassFloor_outdated/sGrassFloor_outdated.yy",
   },
   "spriteMaskId":null,
   "visible":true,
