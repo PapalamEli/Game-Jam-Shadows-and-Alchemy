@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"",
+  "%Name":"tOutdoors",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tOutdoors",
+  "out_columns":2,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"grass_sprite_set",
+    "path":"sprites/grass_sprite_set/grass_sprite_set.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[0,1,2,3,],
+    "SerialiseFrameCount":1,
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":0.0,
+  "tileHeight":26,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":26,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":4,
+}
