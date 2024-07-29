@@ -5,3 +5,7 @@ ingredient_inventory = array_create(0)
 
 
 base_plant = sBasePlant
+
+
+//most recently picked plant by player (look in oBasePlant)
+var current_plant = "none"
