@@ -7,6 +7,7 @@ if place_meeting(x, y, oPlayer)
 
 	//uses predicate method in scriptBasePlant
 	//finds index of pre-existing plant (if there is one)
+	oInventory.current_plant = plant_name
 	ingredient_index = array_find_index(oInventory.ingredient_inventory, ingredient_check)
 	
 	//check if plant already present in inventory

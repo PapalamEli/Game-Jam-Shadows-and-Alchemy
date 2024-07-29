@@ -19,9 +19,50 @@ for (i = 0; i < array_length(ingredient_inventory); i += 1) {
 		case "oBasePlant":
 			
 			//draws in different inventory slot depending on order picked up
-			draw_sprite(sBasePlant, 0, ((i + 1) * 25) + 48, 73)
+			draw_sprite(sBasePlant, 0, 33 + (i * 100), 57)
 			//draws amount in top left corner, perfectly coded so do not touch
-			draw_text( ((i + 1) * 25) + 8, 28, ingredient_inventory[i,1])
+			draw_text( 33 + (i * 100), 28, ingredient_inventory[i,1])
+		break
+		
+		case "agaric":
+			
+			//draws in different inventory slot depending on order picked up
+			draw_sprite(_tofly_agaric_32, 0,58 + (i * 100), 57)
+			//draws amount in top left corner, perfectly coded so do not touch
+			draw_text(  33 + (i * 100), 28, ingredient_inventory[i,1])
+		break
+		
+		case "bluelotus":
+			
+			//draws in different inventory slot depending on order picked up
+			draw_sprite(blue_lotus_32, 0, 58 + (i * 100), 57)
+			//draws amount in top left corner, perfectly coded so do not touch
+			draw_text(  33 + (i * 100), 28, ingredient_inventory[i,1])
+		break
+		
+		case "chamomile":
+			
+			//draws in different inventory slot depending on order picked up
+			draw_sprite(chamomile_32, 0, 58 + (i * 100), 57)
+			//draws amount in top left corner, perfectly coded so do not touch
+			draw_text(  33 + (i * 100), 28, ingredient_inventory[i,1])
+		break
+		
+		case "dandelion":
+			
+			//draws in different inventory slot depending on order picked up
+			draw_sprite(dandelion_32, 0, 58 + (i * 100), 57)
+			//draws amount in top left corner, perfectly coded so do not touch
+			draw_text(  33 + (i * 100) , 28, ingredient_inventory[i,1])
+		break
+		
+		case "sage":
+			
+			//draws in different inventory slot depending on order picked up
+			draw_sprite(sage_32, 0, 58 + (i * 100), 57)
+			//draws amount in top left corner, perfectly coded so do not touch
+			draw_text(  33 + (i * 100) , 28, ingredient_inventory[i,1])
 		break
 	}
+	
 }
