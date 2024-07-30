@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oBaseCollision",
-  "eventList":[],
+  "%Name":"oDoorIndoors",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":40,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oBaseCollision",
+  "name":"oDoorIndoors",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sDoor",
+    "path":"sprites/sDoor/sDoor.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

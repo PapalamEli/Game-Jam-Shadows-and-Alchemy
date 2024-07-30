@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oBottleEmpty",
+  "%Name":"oCameraIndoors",
   "eventList":[],
   "managed":true,
-  "name":"oBottleEmpty",
+  "name":"oCameraIndoors",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oCamera",
+    "path":"objects/oCamera/oCamera.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBottleEmpty",
-    "path":"sprites/sBottleEmpty/sBottleEmpty.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

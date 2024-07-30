@@ -55,7 +55,7 @@ if(place_meeting(x + hsp, y, forest_tilemap))
 	}
 	hsp = 0;
 }
-x += hsp;
+
 
 
 if(place_meeting(x, y + vsp, forest_tilemap))
@@ -68,6 +68,11 @@ if(place_meeting(x, y + vsp, forest_tilemap))
 	}
 	vsp = 0;
 }
+
+
+
+
+// mostly same code as above, except its for the 2nd tilemap
 
 // keep this block after any collision checks, to ensure the player does not clip
 x += hsp;

@@ -4,7 +4,7 @@
 
 if place_meeting(x,y, oPlayer) {
 	show_debug_message("door entered")
-	room_goto_next()
-	oPlayer.x = 450
-	oPlayer.y = 352
+	room_goto_previous()
+	oPlayer.x = 2400
+	oPlayer.y = 360
 }
