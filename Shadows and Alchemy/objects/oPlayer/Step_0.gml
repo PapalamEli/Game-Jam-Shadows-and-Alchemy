@@ -52,7 +52,7 @@ if(place_meeting(x + hsp, y, forest_tilemap))
 	}
 	hsp = 0;
 }
-x += hsp;
+
 
 
 if((place_meeting(x, y + vsp, forest_tilemap)) || (place_meeting(x, y + vsp, oJumpPad)))
@@ -65,6 +65,7 @@ if((place_meeting(x, y + vsp, forest_tilemap)) || (place_meeting(x, y + vsp, oJu
 	}
 	vsp = 0;
 }
+
 
 // If the player jumps while on a jump pad, they will jump higher, otherwise they will jump normally.
 if(place_meeting(x, y + vsp, oJumpPad) && _keyJump)
@@ -108,6 +109,7 @@ if(_keyJumpPotion && (potionNumJump > 0) && (throwDelay < 0))
 	potionNumJump -= 1;
 	
 }
+
 
 // keep this block after any collision checks, to ensure the player does not clip
 x += hsp;

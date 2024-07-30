@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Object5",
+  "%Name":"oCollisionInvisible",
   "eventList":[],
   "managed":true,
-  "name":"Object5",
+  "name":"oCollisionInvisible",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oBaseCollision",
+    "path":"objects/oBaseCollision/oBaseCollision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
