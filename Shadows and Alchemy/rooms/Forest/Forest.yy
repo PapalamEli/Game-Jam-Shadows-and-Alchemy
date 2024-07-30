@@ -24,6 +24,7 @@
     {"name":"inst_5DD98393","path":"rooms/Forest/Forest.yy",},
     {"name":"inst_606DE789","path":"rooms/Forest/Forest.yy",},
     {"name":"inst_34E356C3","path":"rooms/Forest/Forest.yy",},
+    {"name":"inst_7C924E3B","path":"rooms/Forest/Forest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +47,7 @@
         {"$GMRInstance":"v1","%Name":"inst_5DD98393","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DD98393","objectId":{"name":"oPlantSage","path":"objects/oPlantSage/oPlantSage.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2029.0,"y":388.0,},
         {"$GMRInstance":"v1","%Name":"inst_606DE789","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_606DE789","objectId":{"name":"oPlantAgaric","path":"objects/oPlantAgaric/oPlantAgaric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1951.0,"y":386.0,},
         {"$GMRInstance":"v1","%Name":"inst_34E356C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34E356C3","objectId":{"name":"oPlantAgaric","path":"objects/oPlantAgaric/oPlantAgaric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1900.0,"y":386.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7C924E3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C924E3B","objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"forest_tilemap_grass","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"forest_tilemap_grass","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":193,"TileCompressedData":[
           -1592,-2147483648,1,0,-1281,-2147483648,1,0,-19,-2147483648,1,0,-174,-2147483648,4,0,-2147483648,0,-2147483648,
