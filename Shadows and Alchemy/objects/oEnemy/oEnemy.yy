@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemy",
-    "path":"sprites/sEnemy/sEnemy.yy",
+    "name":"sEnemy_2",
+    "path":"sprites/sEnemy_2/sEnemy_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

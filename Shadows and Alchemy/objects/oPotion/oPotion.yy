@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPotion",
-    "path":"sprites/sPotion/sPotion.yy",
+    "name":"sPotion_1",
+    "path":"sprites/sPotion_1/sPotion_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

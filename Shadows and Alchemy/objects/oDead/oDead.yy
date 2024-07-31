@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDead",
-    "path":"sprites/sDead/sDead.yy",
+    "name":"sDead_1",
+    "path":"sprites/sDead_1/sDead_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
