@@ -11,8 +11,8 @@ show_debug_message(dist);
 show_debug_message(current_pos);
 
 //Enemy detection when at a certain distance
-if(dist < 400){
-	hsp = -2
+if(dist < 500){
+	hsp = -1
 }
 else{
 	
@@ -21,6 +21,27 @@ else{
 		hsp = 1;
 	}
 
+}
+
+if(place_meeting(x + hsp, y, oBaseCollision))
+{
+	while(abs(hsp) > 0.1)
+	{
+		hsp *= 0.5;
+		if (!place_meeting(x + hsp, y, oBaseCollision)) x += hsp;
+	}
+	hsp = 0;
+}
+
+if(place_meeting(x, y + vsp, oBaseCollision))
+{
+	if(vsp > 0) canJump = 10;
+	while (abs(vsp) > 0.1)
+	{
+		vsp *= 0.5;
+		if(!place_meeting(x, y + vsp, oBaseCollision)) y += vsp;
+	}
+	vsp = 0;
 }
 
 // mostly same code as above, except its for the tilemap
