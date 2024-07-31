@@ -20,26 +20,26 @@ vsp = vsp + grv;
 //Collision and movement
 
 // we will want to move away from instances and go on to tilemaps, once ready, remove this piece of code
-//if(place_meeting(x + hsp, y, oBaseCollision))
-//{
-//	while(abs(hsp) > 0.1)
-//	{
-//		hsp *= 0.5;
-//		if (!place_meeting(x + hsp, y, oBaseCollision)) x += hsp;
-//	}
-//	hsp = 0;
-//}
+if(place_meeting(x + hsp, y, oBaseCollision))
+{
+	while(abs(hsp) > 0.1)
+	{
+		hsp *= 0.5;
+		if (!place_meeting(x + hsp, y, oBaseCollision)) x += hsp;
+	}
+	hsp = 0;
+}
 
-//if(place_meeting(x, y + vsp, oBaseCollision))
-//{
-//	if(vsp > 0) canJump = 10;
-//	while (abs(vsp) > 0.1)
-//	{
-//		vsp *= 0.5;
-//		if(!place_meeting(x, y + vsp, oBaseCollision)) y += vsp;
-//	}
-//	vsp = 0;
-//}
+if(place_meeting(x, y + vsp, oBaseCollision))
+{
+	if(vsp > 0) canJump = 10;
+	while (abs(vsp) > 0.1)
+	{
+		vsp *= 0.5;
+		if(!place_meeting(x, y + vsp, oBaseCollision)) y += vsp;
+	}
+	vsp = 0;
+}
 
 
 // mostly same code as above, except its for the tilemap
@@ -52,7 +52,7 @@ if(place_meeting(x + hsp, y, forest_tilemap))
 	}
 	hsp = 0;
 }
-x += hsp;
+
 
 
 if((place_meeting(x, y + vsp, forest_tilemap)) || (place_meeting(x, y + vsp, oJumpPad)))
@@ -65,6 +65,7 @@ if((place_meeting(x, y + vsp, forest_tilemap)) || (place_meeting(x, y + vsp, oJu
 	}
 	vsp = 0;
 }
+
 
 // If the player jumps while on a jump pad, they will jump higher, otherwise they will jump normally.
 if(place_meeting(x, y + vsp, oJumpPad) && _keyJump)
@@ -108,6 +109,7 @@ if(_keyJumpPotion && (potionNumJump > 0) && (throwDelay < 0))
 	potionNumJump -= 1;
 	
 }
+
 
 // keep this block after any collision checks, to ensure the player does not clip
 x += hsp;
