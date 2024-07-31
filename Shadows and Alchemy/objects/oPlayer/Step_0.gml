@@ -15,6 +15,13 @@ hsp = (_keyRight - _keyLeft) * hWalk;
 //Works out where the player will move vertically
 vsp = vsp + grv;
 
+//deals with sprite animation/direction
+if hsp > 0 {
+	image_xscale = 1
+}
+else if hsp < 0 {
+	image_xscale = -1
+}
 
 
 //Collision and movement
@@ -88,7 +95,7 @@ throwDelay = throwDelay - 0.1;
 
 //Throw potion after combining
 
-if(_keyThrow && (potionNumBomb > 0 or potionNumJump > 0) && (throwDelay < 0))
+if(_keyThrow && (potionNumBomb > 0) && (throwDelay < 0))
 {
 	
 	throwDelay = 5;

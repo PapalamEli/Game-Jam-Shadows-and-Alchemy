@@ -15,4 +15,8 @@ hitFrom = 0; //For when the enemy is hit at different angles
 
 current_pos = oEnemy.x;
 
+//variable for check if player is dead
+player_dead = false
+
+
 forest_tilemap = layer_tilemap_get_id("forest_tilemap_grass"); //allows tilemap to be passed as variable for collisions
