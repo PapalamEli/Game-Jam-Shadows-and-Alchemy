@@ -1,5 +1,5 @@
 // Potion Travel horizontaland vertical Speed
-hsp = 5;
+hsp = 5 * oPlayer.image_xscale;
 
 vsp = -2;
 

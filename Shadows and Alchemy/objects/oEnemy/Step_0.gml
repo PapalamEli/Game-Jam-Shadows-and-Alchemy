@@ -1,6 +1,9 @@
 
 
 //Works out where the player will move vertically
+if player_dead = true{
+	exit
+}
 vsp = vsp + grv;
 
 var dist = point_distance(oPlayer.x, oPlayer.y, oEnemy.x, oEnemy.y);
@@ -12,7 +15,12 @@ show_debug_message(current_pos);
 
 //Enemy detection when at a certain distance
 if(dist < 500){
-	hsp = -1
+	if oPlayer.x - x > 0 {
+		hsp = 1
+	}
+	if oPlayer.x - x < 0 {
+		hsp = -1
+	}
 }
 else{
 	
